@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  text = "Default Ionic Text";
   constructor() {}
-
+  onChangeText(){
+    this.text = "Thanks to Ionic!";
+  }
 }
